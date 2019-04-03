@@ -6,6 +6,8 @@ import ParticleComponent from "./components/ParticleComponent";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
+import Footer from "./components/Footer";
+import Contact from './components/Contact';
 class App extends Component {
   render() {
     return (
@@ -25,10 +27,12 @@ class App extends Component {
             <Route exact path="/" component={Home} />
 
             <Route exact path="/about" component={About} />
+            <Route path="/contact" component={Contact} /> 
             {/* <Route path="/product" component={Products} />
             <Route path="/media" component={Media} />
             <Route path="/sessions" component={Sessions} />
-            <Route path="/contact" component={contact} /> */}
+            */}
+            <Footer />
           </div>
         </div>
       </Router>

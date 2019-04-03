@@ -76,6 +76,7 @@ body {
 
 .link-text {
   text-decoration: none !important;
+  color: black;
 }
 
 .intro-container {
@@ -96,4 +97,35 @@ body {
 
 .vault-card {
   text-align: center;
+}
+
+.footer-section {
+  background: #2b2b2b;
+  color: white;
+}
+.footer1 {
+  margin: auto;
+  margin-top: 10%;
+  justify-content: space-between;
+  padding: 5% 15%;
+}
+
+.contact-text {
+  font-size: 1.1rem;
+}
+.footer-bottom {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-text1 :hover {
+  color: black !important;
+}
+
+.link-text1 {
+  text-decoration: none !important;
+  color: black ; 
 }

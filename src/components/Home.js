@@ -7,12 +7,17 @@ import SimpleLineIcon from "react-simple-line-icons";
 import Tab from "react-bootstrap/Tab";
 import LCX_Exchange from "./LCX_Exchange";
 import LCX_Terminal from "./LCX_Terminal";
+import LCX_Vault from "./LCX_Vault";
+import Binance_LCX from "./Binance_LCX";
+import Slide from "react-reveal/Slide";
+import Fade from "react-reveal/Fade";
 
 export default class Home extends Component {
   constructor(props) {
     super(props);
 
     this.introRef = React.createRef();
+    this.productRef = React.createRef();
     this.state = {
       products: [
         {
@@ -70,7 +75,9 @@ export default class Home extends Component {
             className="banner-text"
             style={{ color: "black", padding: "6%" }}
           >
-            <p className="h1">An exchange made for professional investors</p>
+            <Slide left>
+              <p className="h1">An exchange made for professional investors</p>
+            </Slide>
           </div>
           <div
             style={{
@@ -119,7 +126,9 @@ export default class Home extends Component {
                       this.state.currentTab === id ? "5px solid red" : "unset"
                   }}
                 >
-                  <DataCard item={item} />
+                  <Slide left>
+                    <DataCard item={item} />
+                  </Slide>
                 </div>
               ))}
           </div>
@@ -127,8 +136,12 @@ export default class Home extends Component {
         <div className="tab-container">
           {this.state.currentTab === 0 ? (
             <LCX_Exchange />
+          ) : this.state.currentTab === 1 ? (
+            <LCX_Vault />
           ) : this.state.currentTab === 2 ? (
             <LCX_Terminal />
+          ) : this.state.currentTab === 3 ? (
+            <Binance_LCX />
           ) : null}
         </div>
       </div>

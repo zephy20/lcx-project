@@ -17,27 +17,49 @@ export default class NavBar extends Component {
   render() {
     return (
       <div>
-      <Navbar collapseOnSelect sticky="top" expand="lg" bg="white" variant="light" style={{padding:"1% 25%"}}  >
-        <Navbar.Brand href="/"><p className="h2">LCX</p></Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav" >
-          <Nav className="mr-auto">
-            {/* <Nav.Link href="/home">Home</Nav.Link>
+        <Navbar
+          collapseOnSelect
+          sticky="top"
+          expand="lg"
+          bg="white"
+          variant="light"
+          style={{ padding: "1%" }}
+        >
+          <Navbar.Brand href="/">
+            <p
+              className="h2"
+              style={{ fontSize: "3rem", fontFamily: "Times New Roman" }}
+            >
+              <Link className="link-text1" to="/">
+                LCX
+              </Link>
+            </p>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="mr-auto">
+              {/* <Nav.Link href="/home">Home</Nav.Link>
           <Nav.Link href="/about">About</Nav.Link> */}
-          </Nav>
-          <Nav className="justify-content-end">
-            <Navbar.Brand>
-            <Link className="link-text" to="/">Home</Link>
-          </Navbar.Brand>
-          <Navbar.Brand>
-            <Link className="link-text" to="/about">About</Link>
-          </Navbar.Brand>
-          <Navbar.Brand>
-            <Link className="link-text" to="/product">Products</Link>
-          </Navbar.Brand>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
+            </Nav>
+            <Nav className="justify-content-end">
+              <Navbar.Brand>
+                <Link className="link-text" to="/">
+                  Home
+                </Link>
+              </Navbar.Brand>
+              <Navbar.Brand>
+                <Link className="link-text" to="/about">
+                  About
+                </Link>
+              </Navbar.Brand>
+              <Navbar.Brand>
+                <Link className="link-text" to="/contact">
+                  Contact Us
+                </Link>
+              </Navbar.Brand>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
       </div>
     );
   }
