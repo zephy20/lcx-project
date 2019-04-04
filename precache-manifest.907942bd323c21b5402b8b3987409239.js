@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/lcx-project/static/js/main.e55f6beb.chunk.js"
   },
   {
-    "revision": "f33df365d6d0255b586f2920355e94d7",
-    "url": "/lcx-project/static/media/Simple-Line-Icons.f33df365.eot"
-  },
-  {
     "revision": "d2285965fe34b05465047401b8595dd0",
     "url": "/lcx-project/static/media/Simple-Line-Icons.d2285965.ttf"
+  },
+  {
+    "revision": "f33df365d6d0255b586f2920355e94d7",
+    "url": "/lcx-project/static/media/Simple-Line-Icons.f33df365.eot"
   },
   {
     "revision": "78f07e2c2a535c26ef21d95e41bd7175",
