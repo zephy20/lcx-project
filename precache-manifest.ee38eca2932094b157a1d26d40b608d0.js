@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/lcx-project/static/media/terminal_3.5ed49922.jpg"
   },
   {
-    "revision": "68d55f71c3762fe544e1",
+    "revision": "da2dc49919ced6d612ad",
     "url": "/lcx-project/static/css/main.476ccf68.chunk.css"
   },
   {
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/lcx-project/static/media/kraken.b5b9412a.png"
   },
   {
-    "revision": "68d55f71c3762fe544e1",
-    "url": "/lcx-project/static/js/main.3026c938.chunk.js"
+    "revision": "da2dc49919ced6d612ad",
+    "url": "/lcx-project/static/js/main.00d021ec.chunk.js"
   },
   {
     "revision": "015edc65d60f1edcc9e700951b40d8c3",
@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/lcx-project/static/css/2.07b73ffb.chunk.css"
   },
   {
-    "revision": "9f000a21e5e18085694f1288e2afdb0d",
+    "revision": "5df659576aca3dcf97dfab5b34dba2de",
     "url": "/lcx-project/index.html"
   }
 ];
