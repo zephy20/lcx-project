@@ -93,6 +93,7 @@ body {
   box-shadow: rgba(126, 142, 177, 0.12) 0px 2px 4px;
   max-width: 1200px;
   margin: auto;
+  min-height: 630px;
 }
 
 .vault-card {
@@ -127,5 +128,11 @@ body {
 
 .link-text1 {
   text-decoration: none !important;
-  color: black ; 
+  color: black;
+}
+
+.advisor-image {
+  height: 300px;
+  width: 300px;
+  cursor: pointer;
 }

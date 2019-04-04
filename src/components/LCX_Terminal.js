@@ -9,8 +9,21 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Image from "react-bootstrap/Image";
 import Fade from "react-reveal/Fade";
-
+import data from "../components/jsonData.json";
+import Jumbotron from "react-bootstrap/Jumbotron";
+import Container from "react-bootstrap/Container";
 export default class LCX_Terminal extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      data: ""
+    };
+  }
+
+  componentDidMount() {
+    this.setState({ data });
+  }
   render() {
     return (
       <Fade>
@@ -24,6 +37,28 @@ export default class LCX_Terminal extends Component {
               of major exchanges.
             </p>
             <br />
+            <div
+              className="row"
+              style={{ marginTop: "2%", justifyContent: "center" }}
+            >
+              <p className="h2">
+                Supports your favorite crypto exchanges and wallets
+              </p>
+              <Jumbotron bg="light" fluid style={{ background: "none" }}>
+                <Container>
+                  <div className="row">
+                    {this.state.data &&
+                      this.state.data.wallets.map((item, id) => (
+                        <div key={id} className="col-md-3 col-lg-3 col-xs-2">
+                          <Fade left>
+                            <Image src={item.wallet} fluid />
+                          </Fade>
+                        </div>
+                      ))}
+                  </div>
+                </Container>
+              </Jumbotron>
+            </div>
             <div className="vault-card">
               <div className="row" style={{ marginTop: "2%" }}>
                 <div className="col-md-5" style={{ textAlign: "left" }}>

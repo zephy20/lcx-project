@@ -1,0 +1,71 @@
+{
+  "advisors": [
+    {
+      "advisor": "/assets/images/advisors/david.jpg",
+      "name": "David Mikkelsen Troensegaard",
+      "description": "Founder at Refugees United"
+    },
+    {
+      "advisor": "/assets/images/advisors/don.jpg",
+      "name": "Don Tapscott",
+      "description": "Leading Authority in Blockchain and Author of \"The Blockchain Revolution\""
+    },
+    {
+      "advisor": "/assets/images/advisors/jimmy.jpg",
+      "name": "Jimmy Wales",
+      "description": "Founder at Wikipedia"
+    },
+    {
+      "advisor": "/assets/images/advisors/klaus.jpg",
+      "name": "Klaus Lovgreen",
+      "description": "Owner at Evershift"
+    },
+    {
+      "advisor": "/assets/images/advisors/miko.jpg",
+      "name": "Miko Matsumura",
+      "description": "Founder Evercoin, Venture Partner at Bitbull Ventures, Investor at Pantera Capital"
+    },
+    {
+      "advisor": "/assets/images/advisors/plamen.jpg",
+      "name": "Plamen Russev",
+      "description": "Executive Chariman of Webit.Foundation, Investor, Blockchain advisor, Philanthropist"
+    },
+    {
+      "advisor": "/assets/images/advisors/shoucheng.jpg",
+      "name": "Prof. Dr. Shoucheng Zhand",
+      "description": "Stanford Professor and Chairman at DHVC"
+    },
+    {
+      "advisor": "/assets/images/advisors/yat.jpg",
+      "name": "Yat Siu",
+      "description": "Founder & CEO at Outblaze"
+    }
+  ],
+  "partners": [
+    { "partner": "/assets/images/partners/bitcoinexchangeguide.jpg" },
+    { "partner": "/assets/images/partners/btcmanager.jpg" },
+    { "partner": "/assets/images/partners/ccn.jpg" },
+    { "partner": "/assets/images/partners/cointelegraph.jpg" },
+    { "partner": "/assets/images/partners/crowdfundinsider.jpg" },
+    { "partner": "/assets/images/partners/cryptoglobe.jpg" },
+    { "partner": "/assets/images/partners/nzz.jpg" },
+    { "partner": "/assets/images/partners/rheinzeitung.jpg" },
+    { "partner": "/assets/images/partners/standard.jpg" },
+    { "partner": "/assets/images/partners/volksblatt.png" },
+    { "partner": "/assets/images/partners/wr.png" }
+  ],
+  "wallets": [
+    {
+      "wallet": "/assets/images/wallets/binance.png"
+    },
+    {
+      "wallet": "/assets/images/wallets/bittrex.png"
+    },
+    {
+      "wallet": "/assets/images/wallets/coinbase.png"
+    },
+    {
+      "wallet": "/assets/images/wallets/kraken.png"
+    }
+  ]
+}

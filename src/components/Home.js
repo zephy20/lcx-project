@@ -41,7 +41,8 @@ export default class Home extends Component {
             "A fiat-to-crypto exchange as a joint venture between Binance and LCX."
         }
       ],
-      open: false
+      open: false,
+      tab: false
     };
   }
 
@@ -56,8 +57,19 @@ export default class Home extends Component {
   };
 
   handleTabChange = id => {
-    this.setState({ currentTab: id });
+    this.setState({ currentTab: id, tab: true });
+
+    setTimeout(() => {
+      if (this.productRef.current) {
+        this.productRef.current.scrollIntoView({
+          behavior: "smooth",
+          block: "nearest"
+        });
+      }
+    }, 0);
   };
+
+  handleProductClick = event => {};
 
   render() {
     const { open } = this.state;
@@ -111,7 +123,13 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
-
+        <div className="intro-container" style={{ padding: "0px" }}>
+          <div className="row">
+            <div className="col-md-12">
+              <p className="h2">Our Products</p>
+            </div>
+          </div>
+        </div>
         <div className="card-container" ref={this.introRef}>
           <div className="row">
             {this.state.products.length > 0 &&
@@ -133,17 +151,19 @@ export default class Home extends Component {
               ))}
           </div>
         </div>
-        <div className="tab-container">
-          {this.state.currentTab === 0 ? (
-            <LCX_Exchange />
-          ) : this.state.currentTab === 1 ? (
-            <LCX_Vault />
-          ) : this.state.currentTab === 2 ? (
-            <LCX_Terminal />
-          ) : this.state.currentTab === 3 ? (
-            <Binance_LCX />
-          ) : null}
-        </div>
+        {this.state.tab === true && (
+          <div className="tab-container" ref={this.productRef}>
+            {this.state.currentTab === 0 ? (
+              <LCX_Exchange />
+            ) : this.state.currentTab === 1 ? (
+              <LCX_Vault />
+            ) : this.state.currentTab === 2 ? (
+              <LCX_Terminal />
+            ) : this.state.currentTab === 3 ? (
+              <Binance_LCX />
+            ) : null}
+          </div>
+        )}
       </div>
     );
   }
