@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/lcx-project/static/media/Simple-Line-Icons.0cb0b9c5.woff2"
   },
   {
-    "revision": "bf176035854f50f6301e",
+    "revision": "8b93853eb35e54dd9a6c",
     "url": "/lcx-project/static/css/main.78b7ccbc.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/lcx-project/static/js/2.fd4d640f.chunk.js"
   },
   {
-    "revision": "bf176035854f50f6301e",
-    "url": "/lcx-project/static/js/main.e55f6beb.chunk.js"
+    "revision": "8b93853eb35e54dd9a6c",
+    "url": "/lcx-project/static/js/main.ef1b73e9.chunk.js"
   },
   {
     "revision": "f33df365d6d0255b586f2920355e94d7",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/lcx-project/static/css/2.07b73ffb.chunk.css"
   },
   {
-    "revision": "5680ae5856e2209c4d5b9ceb01fc585a",
+    "revision": "93d0dd31cfdead98c3130f1ff0ff1d37",
     "url": "/lcx-project/index.html"
   }
 ];
