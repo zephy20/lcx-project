@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
 import Image from "react-bootstrap/Image";
+import binanceLCX from "../assets/images/binanceLCX.jpg";
 
 export default class Binance_LCX extends Component {
   render() {
@@ -13,7 +14,7 @@ export default class Binance_LCX extends Component {
             <p className="h5">Joint venture</p>
             <div className="row">
               <div className="col-md-6 col-xs-12">
-                <Image src="/assets/images/binanceLCX.jpg" fluid />
+                <Image src={binanceLCX} fluid />
               </div>
               <div className="col-md-6 col-xs-12">
                 <p className="lead">

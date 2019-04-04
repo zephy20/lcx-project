@@ -9,9 +9,12 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Image from "react-bootstrap/Image";
 import Fade from "react-reveal/Fade";
-import data from "../components/jsonData.json";
+import data from "../components/jsonData.js";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
+
+import terminal_3 from "../assets/images/terminal_3.jpg";
+
 export default class LCX_Terminal extends Component {
   constructor(props) {
     super(props);
@@ -25,6 +28,7 @@ export default class LCX_Terminal extends Component {
     this.setState({ data });
   }
   render() {
+    console.log(this.state);
     return (
       <Fade>
         <div className="row">
@@ -118,7 +122,7 @@ export default class LCX_Terminal extends Component {
                   </Card>
                 </div>
                 <div className="col-md-7 col-xs-12">
-                  <Image src="/assets/images/terminal_3.jpg" fluid />
+                  <Image src={terminal_3} fluid />
                 </div>
               </div>
               <br />

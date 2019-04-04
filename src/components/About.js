@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
-import data from "../components/jsonData.json";
+import data from "../components/jsonData.js";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";

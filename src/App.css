@@ -37,7 +37,7 @@ body {
 }
 
 .home-banner {
-  background-image: url("/assets/images/banner.jpg");
+  background-image: url("./assets//images/banner.jpg");
   height: 300px;
   width: 100%;
   margin-top: -10px;

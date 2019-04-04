@@ -12,6 +12,11 @@ import Binance_LCX from "./Binance_LCX";
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
 
+import lcx_exchange from "../assets/images/lcx_exchange.png";
+import lcx_vault from "../assets/images/lcx_vault.png";
+import lcx_terminal from "../assets/images/lcx_terminal.png";
+import binanceLCX_logo from "../assets/images/binanceLCX_logo.png";
+
 export default class Home extends Component {
   constructor(props) {
     super(props);
@@ -21,22 +26,22 @@ export default class Home extends Component {
     this.state = {
       products: [
         {
-          img: "/assets/images/lcx_exchange.png",
+          img: lcx_exchange,
           description:
             "Platform for security tokens and other cryptoassets trading."
         },
         {
-          img: "/assets/images/lcx_vault.png",
+          img: lcx_vault,
           description:
             "Institutional-grade crypto asset vault using dedicated hardware security."
         },
         {
-          img: "/assets/images/lcx_terminal.png",
+          img: lcx_terminal,
           description:
             "Trading terminal with auto trading strategies/bots supporting multiple crypto exchanges."
         },
         {
-          img: "/assets/images/binanceLCX_logo.png",
+          img: binanceLCX_logo,
           description:
             "A fiat-to-crypto exchange as a joint venture between Binance and LCX."
         }

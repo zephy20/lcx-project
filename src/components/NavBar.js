@@ -5,6 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import About from "./About";
 import Nav from "react-bootstrap/Nav";
+import { ReactComponent as Logo } from "../assets/images/lcx-logo.svg";
 
 export default class NavBar extends Component {
   constructor(props, context) {
@@ -30,7 +31,7 @@ export default class NavBar extends Component {
               className="h2"
               style={{ fontSize: "3rem", fontFamily: "Times New Roman" }}
             >
-              <Link className="link-text1" to="/">
+              <Link className="link-text1" to="/lcx-project">
                 LCX
               </Link>
             </p>
@@ -38,12 +39,11 @@ export default class NavBar extends Component {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
-              {/* <Nav.Link href="/home">Home</Nav.Link>
-          <Nav.Link href="/about">About</Nav.Link> */}
+            
             </Nav>
             <Nav className="justify-content-end">
               <Navbar.Brand>
-                <Link className="link-text" to="/">
+                <Link className="link-text" to="/lcx-project">
                   Home
                 </Link>
               </Navbar.Brand>
