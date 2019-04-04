@@ -1,16 +1,20 @@
 {
   "main.css": "/lcx-project/static/css/main.78b7ccbc.chunk.css",
-  "main.js": "/lcx-project/static/js/main.ef1b73e9.chunk.js",
-  "main.js.map": "/lcx-project/static/js/main.ef1b73e9.chunk.js.map",
+  "main.js": "/lcx-project/static/js/main.a754bb1a.chunk.js",
+  "main.js.map": "/lcx-project/static/js/main.a754bb1a.chunk.js.map",
   "runtime~main.js": "/lcx-project/static/js/runtime~main.b61c447f.js",
   "runtime~main.js.map": "/lcx-project/static/js/runtime~main.b61c447f.js.map",
   "static/css/2.07b73ffb.chunk.css": "/lcx-project/static/css/2.07b73ffb.chunk.css",
-  "static/js/2.fd4d640f.chunk.js": "/lcx-project/static/js/2.fd4d640f.chunk.js",
-  "static/js/2.fd4d640f.chunk.js.map": "/lcx-project/static/js/2.fd4d640f.chunk.js.map",
+  "static/js/2.71052d2c.chunk.js": "/lcx-project/static/js/2.71052d2c.chunk.js",
+  "static/js/2.71052d2c.chunk.js.map": "/lcx-project/static/js/2.71052d2c.chunk.js.map",
   "index.html": "/lcx-project/index.html",
-  "precache-manifest.ceee96414e2eb9d8c14d25e9bba243cb.js": "/lcx-project/precache-manifest.ceee96414e2eb9d8c14d25e9bba243cb.js",
+  "precache-manifest.d613211cfb33b34c74e68fa45cf9e1c3.js": "/lcx-project/precache-manifest.d613211cfb33b34c74e68fa45cf9e1c3.js",
   "service-worker.js": "/lcx-project/service-worker.js",
   "static/css/2.07b73ffb.chunk.css.map": "/lcx-project/static/css/2.07b73ffb.chunk.css.map",
   "static/css/main.78b7ccbc.chunk.css.map": "/lcx-project/static/css/main.78b7ccbc.chunk.css.map",
-  "static/media/simple-line-icons.css": "/lcx-project/static/media/Simple-Line-Icons.f33df365.eot"
+  "static/media/simple-line-icons.css": "/lcx-project/static/media/Simple-Line-Icons.f33df365.eot",
+  "static/media/don.jpg": "/lcx-project/static/media/don.01ed604b.jpg",
+  "static/media/miko.jpg": "/lcx-project/static/media/miko.abf9901e.jpg",
+  "static/media/plamen.jpg": "/lcx-project/static/media/plamen.9e09c9f9.jpg",
+  "static/media/shoucheng.jpg": "/lcx-project/static/media/shoucheng.3f23a73e.jpg"
 }
