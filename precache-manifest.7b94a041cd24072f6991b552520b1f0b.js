@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "b5b9412a95c823d9d3ec911a18989f8f",
-    "url": "/lcx-project/static/media/kraken.b5b9412a.png"
+    "revision": "5ed499228387a7597a33cff8175e3ee0",
+    "url": "/lcx-project/static/media/terminal_3.5ed49922.jpg"
   },
   {
-    "revision": "1f61bb5256b571ea196d",
-    "url": "/lcx-project/static/css/main.e130a1c7.chunk.css"
+    "revision": "68d55f71c3762fe544e1",
+    "url": "/lcx-project/static/css/main.476ccf68.chunk.css"
   },
   {
     "revision": "f2b946ab36af60e09744",
     "url": "/lcx-project/static/js/runtime~main.b61c447f.js"
   },
   {
-    "revision": "2fe2efe63441d830b1acd106c1fe8734",
-    "url": "/lcx-project/static/media/Simple-Line-Icons.2fe2efe6.svg"
+    "revision": "a10449b0cb0889b9e4f7d6963250e0c3",
+    "url": "/lcx-project/static/media/lcx-logo.a10449b0.svg"
   },
   {
-    "revision": "4e551a065e68b62158f6",
-    "url": "/lcx-project/static/js/2.4266e942.chunk.js"
+    "revision": "09b2b959d6fc32113c26",
+    "url": "/lcx-project/static/js/2.69347c2d.chunk.js"
   },
   {
     "revision": "01ed604bc4fbd2c4a63fef4012a846e1",
@@ -52,12 +52,12 @@ self.__precacheManifest = [
     "url": "/lcx-project/static/media/coinbase.b065b515.png"
   },
   {
-    "revision": "1f61bb5256b571ea196d",
-    "url": "/lcx-project/static/js/main.dced0625.chunk.js"
+    "revision": "b5b9412a95c823d9d3ec911a18989f8f",
+    "url": "/lcx-project/static/media/kraken.b5b9412a.png"
   },
   {
-    "revision": "5ed499228387a7597a33cff8175e3ee0",
-    "url": "/lcx-project/static/media/terminal_3.5ed49922.jpg"
+    "revision": "68d55f71c3762fe544e1",
+    "url": "/lcx-project/static/js/main.3026c938.chunk.js"
   },
   {
     "revision": "015edc65d60f1edcc9e700951b40d8c3",
@@ -80,6 +80,10 @@ self.__precacheManifest = [
     "url": "/lcx-project/static/media/binanceLCX_logo.03019aec.png"
   },
   {
+    "revision": "3e987c0bbd7c941ba65de9b614eb4f8d",
+    "url": "/lcx-project/static/media/banner.3e987c0b.jpg"
+  },
+  {
     "revision": "0cb0b9c589c0624c9c78dd3d83e946f6",
     "url": "/lcx-project/static/media/Simple-Line-Icons.0cb0b9c5.woff2"
   },
@@ -96,11 +100,15 @@ self.__precacheManifest = [
     "url": "/lcx-project/static/media/Simple-Line-Icons.78f07e2c.woff"
   },
   {
-    "revision": "4e551a065e68b62158f6",
+    "revision": "2fe2efe63441d830b1acd106c1fe8734",
+    "url": "/lcx-project/static/media/Simple-Line-Icons.2fe2efe6.svg"
+  },
+  {
+    "revision": "09b2b959d6fc32113c26",
     "url": "/lcx-project/static/css/2.07b73ffb.chunk.css"
   },
   {
-    "revision": "56408934710fbb19c3c4ce065d3ddfb3",
+    "revision": "9f000a21e5e18085694f1288e2afdb0d",
     "url": "/lcx-project/index.html"
   }
 ];
